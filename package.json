@@ -1,0 +1,20 @@
+{
+  "name": "rhea-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for the Rhea sentiment-analysis API",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "rhea-mcp-server": "src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.11.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
